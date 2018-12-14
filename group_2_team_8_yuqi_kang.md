@@ -1,5 +1,5 @@
 # Handout -- ChIP Sequencing
-1. [Introduction](#231)
+1. [Introduction](#231)<br>
     1.1 [Advantage of ChIP Sequencing](#2311)<br>
 2. [Background Knowledge](#232)<br>
     2.1. [Transcription Factor](#2321)<br>
