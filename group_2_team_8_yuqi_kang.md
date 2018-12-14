@@ -97,6 +97,10 @@ This step could be divided into two parts:
 
 The quality of output fastq file of sequencing shall first be checked. In general, fastqc is the ideal tool to use here. Quality control occurs when there is Warning or Error in the field of **
 
+![](https://github.com/KylinKang/BENG183/blob/master/fastqc.png)
+
+[Figure.4](https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2) An example of fastqc per base sequence quality output. **Figure by Lecture 6 ChIP-seq-KN.**
+
 >**Commonly Applied Softwares in This Step:**
 
 - Quality Control: [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
@@ -117,12 +121,19 @@ The following figure shows different method in ChIP sequencing for peak detectio
 
 ![](https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg)
 
-[Figure.4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods. Peak-finding methods (e.g. MACS (Zhang et al., 2008)) typically either shift the ChIP-seq tag locations in a 3′ direction by half the expected fragment length, or extend the length of the tag in a 3′ direction to be equal to the expected fragment length. Tags from opposite strands are merged to construct an unstranded tag density landscapes, and binding event locations are predicted from the locations with maximum tag coverage within each region that contains a significant enrichment of ChIP-seq tags (i.e. the peak summit). **Figure by Protein-DNA binding in high-resolution.**
+[Figure.5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods. Peak-finding methods (e.g. MACS (Zhang et al., 2008)) typically either shift the ChIP-seq tag locations in a 3′ direction by half the expected fragment length, or extend the length of the tag in a 3′ direction to be equal to the expected fragment length. Tags from opposite strands are merged to construct an unstranded tag density landscapes, and binding event locations are predicted from the locations with maximum tag coverage within each region that contains a significant enrichment of ChIP-seq tags (i.e. the peak summit). **Figure by Protein-DNA binding in high-resolution.**
 
 2. Motif Discovery:
 
+![](https://github.com/KylinKang/BENG183/blob/master/annrheumdis-2013-January-72-1-96-F4.large.jpg)
+
+[Figure.6](https://ard.bmj.com/content/72/1/96) Motif finding sample. **Figure by Insights from Genome-wide profiling of target genes for the systemic lupus erythematosus-associated transcription factors IRF5 and STAT4.**
+
 3. Differential Function Analysis:
 
+![](https://github.com/KylinKang/BENG183/blob/master/nihms-613746-f0007.jpg)
+
+[Figure.7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194139/) A presentation of function/pathway enriched in treated conditon compared to control. **Figure by Insights from A protocol for RNA methylation differential analysis with MeRIP-Seq data and exomePeak R/Bioconductor package.**
 
 >**Commonly Applied Softwares in This Step:**
 
@@ -131,6 +142,10 @@ The following figure shows different method in ChIP sequencing for peak detectio
 - Functional Analysis: [DAVID](https://david.ncifcrf.gov/), [Gene Ontology](http://www.geneontology.org/)
 
 ## 4. Data Visualization<a name="234"></a> 
+
+![](https://github.com/KylinKang/BENG183/blob/master/UCSC.png)
+
+[Figure.8](https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2)Examples of ChIP sequencing visulization. **Figure by Transcription factor-dependent ‘anti-repressive’ mammalian enhancers exclude H3K27me3 from extended genomic domains.**
 
 >**Commonly Applied Softwares in This Step:**
 
