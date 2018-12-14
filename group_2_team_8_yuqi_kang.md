@@ -1,16 +1,20 @@
-# 2.3 C-Techs (chromosome conformation capture)-coupled 
+# Handout -- ChIP Sequencing
 1. [Introduction](#231)
-2. [Overivew of 3C methods](#232)<br>
-    2.1. [Specificity](#2321)<br>
-    2.2. [Through-put and resolution](#2322)
-3. [Hi-C](#233)
-4. [ChIA-PET](#234)
-5. [Selected methods comparison](#235)
+2. [Background Knowledge](#232)<br>
+    2.1. [Transcription Factor](#2321)<br>
+    2.2. [Gene Regulation](#2322)
+3. [Workflow](#233)
+    3.1. [Outline](#2331)<br>
+    3.2. [Library Preparation](#2332)<br>
+    3.3. [Sequencing Output Preprocessing](#2333)<br>
+    3.4. [Data Analysis](#2334)<br>
+4. [Data Visualization](#234)
+5. [Important Application](#235)
 
 
 
 
-## 2.3.1 Introduction<a name="231"></a>
+## 1 Introduction<a name="231"></a>
 
 The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
 
