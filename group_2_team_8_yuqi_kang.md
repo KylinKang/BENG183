@@ -58,7 +58,7 @@ The following figure reveals an overview of ChIP sequencing workflow. It could b
 
 #### 1) Library Preparation<a name="2331"></a>
 
-There are five steps in library preparation.
+There are five steps in library preparation, as presented as Fig.3.
 
 - crosslinking DNA-binding proteins to DNA by treatment of cells with formaldehyde
 
@@ -70,13 +70,19 @@ There are five steps in library preparation.
 
 - purification of the precipitated fragments, the sample can be analyzed by PCR to study particular genes.
 
+> One thing to notice here is that a portion of initial DNA sample is saved for a reference for the immunoprecipitation treated sample to filter the background noise. An alternative way is to treated this reference sample by non-specific transcription factor binding antibody.
 
+![](https://github.com/KylinKang/BENG183/blob/master/nihms-187749-f0001.jpg)
 
+[Figure.3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2846386/) A detailed workflow of library preparation for ChIP sequencing. **Figure by Insights from genomic profiling of transcription factors.**
 
 #### 2) Sequencing Output Preprocessing<a name="2332"></a>
 
 #### 3) Data Analysis<a name="2333"></a>
 
+![](https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg)
+
+[Figure.4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods. Peak-finding methods (e.g. MACS (Zhang et al., 2008)) typically either shift the ChIP-seq tag locations in a 3′ direction by half the expected fragment length, or extend the length of the tag in a 3′ direction to be equal to the expected fragment length. Tags from opposite strands are merged to construct an unstranded tag density landscapes, and binding event locations are predicted from the locations with maximum tag coverage within each region that contains a significant enrichment of ChIP-seq tags (i.e. the peak summit). **Figure by Protein-DNA binding in high-resolution.**
 
 
 ## 4. Data Visualization<a name="234"></a> 
