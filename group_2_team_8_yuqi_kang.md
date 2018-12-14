@@ -95,11 +95,11 @@ This step could be divided into two parts:
 
 1. Preprocessing of fasta/fastq file:
 
-The quality of output fastq file of sequencing shall first be checked. In general, fastqc is the ideal tool to use here. Quality control occurs when there is Warning or Error in the field of **
+The quality of output fastq file of sequencing shall first be checked. In general, fastqc is the ideal tool to use here. Quality control occurs when there is Warning or Error in the field of **Per Base Sequence Quality** and **Adapter Content**. Only sequence whose quality score is above a certain threshold, usually 30, could be kept. Also, adapter sequence is filter out.
 
 ![](https://github.com/KylinKang/BENG183/blob/master/fastqc.png)
 
-[Figure.4](https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2) An example of fastqc per base sequence quality output. **Figure by Lecture 6 ChIP-seq-KN.**
+[Figure.4](https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2) An example of fastqc per base sequence quality output. The ideal quality score should be in the green area, while anything in the red area should be discarded. **Figure by Lecture 6 ChIP-seq-KN.**
 
 >**Commonly Applied Softwares in This Step:**
 
@@ -107,6 +107,14 @@ The quality of output fastq file of sequencing shall first be checked. In genera
 - Adapter Removal: [cutadapt](https://cutadapt.readthedocs.io/en/stable/guide.html)
 
 2. Postfiltering of bam/sam file:
+
+After quality control, the reads in fastq file are aligned to reference genome. Most aligner would output the overall mapping percentage , as well as individual mapping score for each read. Quality control could also be performed here if needed. The output sam file could be split into three parts:
+
+    - Reads uniquely mapped to one genomic location
+    - Reads mapped to multiple genomic locations
+    - Reads that could not mapped to any genomic locations.
+ 
+ Usually, since ChIP sequencing is a high throughput method, only the uniquely mapped reads are kept for precision. The bam file could be further sorted and indexed using samtools.
 
 >**Commonly Applied Softwares in This Step:**
 
