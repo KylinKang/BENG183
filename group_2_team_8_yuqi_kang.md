@@ -80,60 +80,6 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 
 ## 5. Important Application<a name="235"></a> 
-<table>
- <tbody>
-    <tr>
-        <th>Method</td>
-        <th>Targets</td>
-        <th>Resolution</td>
-        <th>Notes</td>
-    </tr>
-    <tr>
-        <td>3C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0535">[3]</a></td>
-        <td>one-vs-one</td>
-        <td>~1–10 kb<br></td>
-        <td><ul><li>Sequence of bait locus must be known</li><li>Easy data analysis</li><li>Low throughput</li></ul></td>
-    </tr>
-    <tr>
-    <td>4C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0545">[4]</a></td>
-    <td>one-vs-all</td>
-    <td>~2 kb</td>
-    <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts</li><li>Long-range contacts</li></ul></td>
-    </tr>
-    <tr>
-    <td>5C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0550">[5]</a></td>
-    <td>many-vs-many</td>
-    <td>~1 kb</td>
-    <td><ul><li>High dynamic range</li><li>Complete contact map of a locus</li><li>3C with ligation-mediated amplification (LMA) of a ‘carbon copy’ library of oligos designed across restriction fragment junctions of interest
-3C</li></ul></td>
-    </tr>
-    <tr>
-    <td>Hi-C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0300">[6]</a></td>
-    <td>all-vs-all</td>
-    <td>0.1–1 Mb</td>
-    <td><ul><li>Genome-wide nucleosome core positioning</li><li>Relative low resolution</li><li>High cost</li></ul></td>
-    </tr>
-    <tr>
-    <td>ChIA-PET <a href="http://refhub.elsevier.com/S0168-9525(15)00063-3/sbref1405">[7]</a></td>
-    <td>Interaction of whole genome mediated by protein</td>
-    <td>Depends on read depth and the size of the genome region bound by the protein of interest</td>
-    <td><ul><li>Lower noise with ChIP</li><li>Biased method since selected protein</li></ul></td>
-    </tr>
- </tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
