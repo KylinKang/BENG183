@@ -70,15 +70,18 @@ The following figure reveals an overview of ChIP sequencing workflow. It could b
 
 There are five steps in library preparation, as presented as Fig.3.
 
-- crosslinking DNA-binding proteins to DNA by treatment of cells with formaldehyde
+- Crosslink the whole cell to stablize the interaction between DNA and DNA-binding proteins to DNA by treatment of cells with formaldehyde.
 
-- preparation of chromatin by sonication or enzymatic digestion.
+- Sonicate DNA to produce sheer chromatin fragments (enzyme digestion could be an alternative).
 
-- immunoprecipitation of the crosslinked chromatin is performed using an antibody that recognizes a specific transcription factor or histone isoform
+- Immunoprecipitate by adding an antibody that recognizes a specific transcription factor or histone isoform of interest.
+    - the antibody could conjugate with magnetic bead to allow the selection of protein-binding DNA sequence.
 
-- yield the collection of all the binding sites in the genome for the factor of interest.
+- Purify the selected immunocomplex to yield the collection of DNA-protein complex containing the binding site.
 
-- purification of the precipitated fragments, the sample can be analyzed by PCR to study particular genes.
+- Reverse-crosslink to remove protein and purify DNA
+
+- Send the built library to sequencing
 
 > One thing to notice here is that a portion of initial DNA sample is saved for a reference for the immunoprecipitation treated sample to filter the background noise. An alternative way is to treated this reference sample by non-specific transcription factor binding antibody.
 
