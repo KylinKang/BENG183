@@ -12,14 +12,13 @@
 
 
 
-
 ## 1. Introduction<a name="231"></a>
 
-As a powerful tool of analyzing protein-DNA interaction, ChIP-sequencing combines chromatin immunoprecipitation (ChIP) with next generation sequencing (NGS). It is widely applied in fields of identifying DNA sequence that are bounded by transcription factors, histone modification proteins or RNA polymerase in vivo. 
+As a powerful tool of analyzing protein-DNA interaction, ChIP-sequencing combines chromatin immunoprecipitation (ChIP) with next generation sequencing (NGS). It is widely applied in fields of identifying DNA sequence that are bounded by transcription factors, histone modification proteins or RNA polymerase in vivo [1].
 
 It could also be used to examine the function of non-coding regions such as enhancers, silencers and insulators through the genome. When comparing across different samples, it is able to reveal the gene regulation events that play a role in biological pathways and even certain diseases, for example, cancer. 
 
-To capture the DNA-protein interaction, the major steps are as following:
+To capture the DNA-protein interaction, the major steps are as following [2]:
 - **Crosslink** crosslink protein and sheer DNA
 - **Select** add protein specific antibody 
 - **Immunoprecipitate** immunoprecipitate and purify complexes
@@ -31,10 +30,7 @@ To capture the DNA-protein interaction, the major steps are as following:
 
 ## 2. Background Knowledge<a name="232"></a>
 
-![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
-[Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
-
-To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
+The knowledge of some basic biological concepts is necessary for understanding the importance of this method.
 
 #### 1) Transcription Factor<a name="2321"></a>
 ‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
@@ -143,9 +139,9 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 
 # Referrence
-[1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.<br>
+[1] Robertson, G. et al. "Genome-wide profiles of STAT1 DNA association using chromatin immunoprecipitation and massively parallel sequencing." Nat Methods. 2007 Aug; 4(8):651-7.<br>
 
-[2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.<br>
+[2] Zhong, Sheng. "Lecture 6_ChIP-seq-KN" BENG 183 FALL 2018.<br>
 
 [3] Dekker J, Rippe K, Dekker M, Kleckner N. Capturing chromosome conformation. Science 2002;295(5558):1306–11.<br>
 
