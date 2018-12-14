@@ -3,7 +3,7 @@
 2. [Background Knowledge](#232)<br>
     2.1. [Transcription Factor](#2321)<br>
     2.2. [Gene Regulation](#2322)
-3. [Workflow](#233)
+3. [Workflow](#233)<br>
     3.1. [Outline](#2331)<br>
     3.2. [Library Preparation](#2332)<br>
     3.3. [Sequencing Output Preprocessing](#2333)<br>
