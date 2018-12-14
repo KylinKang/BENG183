@@ -75,13 +75,13 @@ There are five steps in library preparation, as presented as Fig.3.
 - Sonicate DNA to produce sheer chromatin fragments (enzyme digestion could be an alternative).
 
 - Immunoprecipitate by adding an antibody that recognizes a specific transcription factor or histone isoform of interest.
-    * the antibody could conjugate with magnetic bead to allow the selection of protein-binding DNA sequence.
+    > The antibody could conjugate with magnetic bead to allow the selection of protein-binding DNA sequence.
 
 - Purify the selected immunocomplex to yield the collection of DNA-protein complex containing the binding site.
 
-- Reverse-crosslink to remove protein and purify DNA
+- Reverse-crosslink to remove protein and purify DNA.
 
-- Send the built library to sequencing
+- Send the built library to sequencing.
 
 > One thing to notice here is that a portion of initial DNA sample is saved for a reference for the immunoprecipitation treated sample to filter the background noise. An alternative way is to treated this reference sample by non-specific transcription factor binding antibody.
 
@@ -94,6 +94,8 @@ There are five steps in library preparation, as presented as Fig.3.
 This step could be divided into two parts:
 
 1. Preprocessing of fasta/fastq file:
+
+The quality of output fastq file of sequencing shall first be checked. In general, fastqc is the ideal tool to use here. Quality control occurs when there is Warning or Error in the field of **
 
 >**Commonly Applied Softwares in This Step:**
 
@@ -111,7 +113,7 @@ This step could be divided into two parts:
 
 1. Peak Detection:
 
-The following figure shows different method in ChIP sequencing for peak detection. In this handout, we will focus on the peak calling method.
+The following figure shows different method in ChIP sequencing for peak detection. In this handout, we will focus on the application and processing of peak calling method (MACS2).
 
 ![](https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg)
 
@@ -130,6 +132,10 @@ The following figure shows different method in ChIP sequencing for peak detectio
 
 ## 4. Data Visualization<a name="234"></a> 
 
+>**Commonly Applied Softwares in This Step:**
+
+- [IGV](http://software.broadinstitute.org/software/igv/UserGuide)
+- [UCSC Genome Browser](https://genome.ucsc.edu/cgi-bin/hgGateway)
 
 ## 5. Important Application<a name="235"></a> 
 
