@@ -174,7 +174,7 @@ The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regi
 
 [6] https://github.com/taoliu/MACS <br>
 
-[7] Wenxiu Ma, William S Noble & Timothy L Bailey. Motif-based analysis of large nucleotide data sets using MEME-ChIP. Nature Protocols volume 9. 2014 May; 1428–1450.<br>
+[7] Wenxiu Ma, William S Noble, Timothy L Bailey. Motif-based analysis of large nucleotide data sets using MEME-ChIP. Nature Protocols volume 9. 2014 May; 1428–1450.<br>
 
 [8] ENCODE Project Consortium. An integrated encyclopedia of DNA elements in the human genome.<br>
 
