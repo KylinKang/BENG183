@@ -38,7 +38,8 @@ Sequence-specific transcription factors (TFs) are key regulators of biological p
 
 ![](https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg)
 ![](https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg)
-Figure.1: The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
+
+[Figure.1] The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
 
 #### 2) Gene Regulation and Annotation<a name="2322"></a>
 
@@ -47,6 +48,13 @@ By analyzing whether or not a sequence is bound to TF of interest and evaluating
 The detecting of TF binding site also facillitates gene annotation.It could be realized through detecting transcription-factor binding sites and histone-modification. The chromatin of enhancers was determined and integrative analysis of histone modification and localization profiles of the transcriptional co-activator p300 in human cells was used to find new enhancer <a href="https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2">[2]</a>.
 
 ## 3. Workflow<a name="233"></a>
+
+The following figure reveals an overview of ChIP sequencing workflow.
+
+![](https://github.com/KylinKang/BENG183/blob/master/Screen%20Shot%202018-12-14%20at%202.20.37%20AM.png)
+
+[Figure.2](https://www.ncbi.nlm.nih.gov/pubmed/22955991) Overview of ChIP-seq workflow and antibody characterization procedures. (A) Steps for which specific ENCODE guidelines are presented in this document are indicated in red. For other steps, standard ENCODE protocols exist that should be validated and optimized for each new cell line/tissue type or sonicator. (*) A commonly used but optional step. **Figure by ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia.**
+
 
 #### 1) Library Preparation<a name="2331"></a>
 
