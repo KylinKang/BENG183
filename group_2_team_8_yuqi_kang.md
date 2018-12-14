@@ -85,7 +85,7 @@ There are five steps in library preparation, as presented as Fig.3.
 
 > One thing to notice here is that a portion of initial DNA sample is saved for a reference for the immunoprecipitation treated sample to filter the background noise. An alternative way is to treated this reference sample by non-specific transcription factor binding antibody.
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/nihms-187749-f0001.jpg" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/nihms-187749-f0001.jpg" alt="drawing" width="300"/>
 
 [Figure.3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2846386/) A detailed workflow of library preparation for ChIP sequencing. **Figure by Insights from genomic profiling of transcription factors.**
 
