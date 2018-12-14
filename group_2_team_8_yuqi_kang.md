@@ -39,7 +39,7 @@ Sequence-specific transcription factors (TFs) are key regulators of biological p
 ![](https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg)
 ![](https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg)
 
-[Figure.1] The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
+[Figure.1](http://pediaa.com/how-do-transcription-factors-bind-to-dna/) The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
 
 #### 2) Gene Regulation and Annotation<a name="2322"></a>
 
@@ -49,7 +49,7 @@ The detecting of TF binding site also facillitates gene annotation.It could be r
 
 ## 3. Workflow<a name="233"></a>
 
-The following figure reveals an overview of ChIP sequencing workflow.
+The following figure reveals an overview of ChIP sequencing workflow. It could be mainly split into three steps: the preparation of sequence library, the pre-filtering of sequencing outcome and the analysis of final result.
 
 ![](https://github.com/KylinKang/BENG183/blob/master/Screen%20Shot%202018-12-14%20at%202.20.37%20AM.png)
 
@@ -57,6 +57,21 @@ The following figure reveals an overview of ChIP sequencing workflow.
 
 
 #### 1) Library Preparation<a name="2331"></a>
+
+There are five steps in library preparation.
+
+- crosslinking DNA-binding proteins to DNA by treatment of cells with formaldehyde
+
+- preparation of chromatin by sonication or enzymatic digestion.
+
+- immunoprecipitation of the crosslinked chromatin is performed using an antibody that recognizes a specific transcription factor or histone isoform
+
+- yield the collection of all the binding sites in the genome for the factor of interest.
+
+- purification of the precipitated fragments, the sample can be analyzed by PCR to study particular genes.
+
+
+
 
 #### 2) Sequencing Output Preprocessing<a name="2332"></a>
 
