@@ -100,7 +100,11 @@ There are five steps in library preparation, as presented as Fig.3.
 
 ## 5. Important Application<a name="235"></a> 
 
+**Encode Project**
 
+ChIP sequencing is widely applied in labs which are involved in Encode Project, which aims to delineate all functional elements encoded in the human genome. The binding locations of 119 different DNA-binding proteins and a number of RNA polymerase components in 72 cell types are mapped using ChIP-seq.
+
+The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regions of transcription, transcription factor association, chromatin structure and histone modification. These data enabled us to assign biochemical functions for 80% of the genome, in particular outside of the well-studied protein-coding regions. Many discovered candidate regulatory elements are physically associated with one another and with expressed genes, providing new insights into the mechanisms of gene regulation. The newly identified elements also show a statistical correspondence to sequence variants linked to human disease, and can thereby guide interpretation of this variation. Overall, the project provides new insights into the organization and regulation of our genes and genome, and is an expansive resource of functional annotations for biomedical research <a href="https://www.ncbi.nlm.nih.gov/pubmed/22955616">[8]</a>.
 
 
 # Referrence
@@ -118,6 +122,6 @@ There are five steps in library preparation, as presented as Fig.3.
 
 [7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.<br>
 
-[8] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx.
+[8] ENCODE Project Consortium. An integrated encyclopedia of DNA elements in the human genome.<br>
 
 
