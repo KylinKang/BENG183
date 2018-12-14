@@ -34,14 +34,16 @@ The knowledge of some basic biological concepts is necessary for understanding t
 
 #### 1) Transcription Factor<a name="2321"></a>
 
-Sequence-specific transcription factors (TFs) are key regulators of biological processes that function by binding to transcriptional regulatory regions (e.g., promoters, enhancers) to control the expression of their target genes (enhance or repress). Each TF typically recognizes a collection of similar DNA sequences, which can be represented as binding site motifs.<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5447501/">[3]</a>
+Sequence-specific transcription factors (TFs) are key regulators of biological processes that function by binding to transcriptional regulatory regions (e.g., promoters, enhancers) to control the expression of their target genes (enhance or repress). Each TF typically recognizes a collection of similar DNA sequences, which can be represented as binding site motifs.<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5447501/">[3]</a> Therefore, the analysis of regulatory regions in genome sequences is strongly based on the detection of potential transcription factor binding sites. 
 
 ![](https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg)
 ![](https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg)
-Figure.1 The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
-
+Figure.1: The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
 
 #### 2) Gene Regulation and Annotation<a name="2322"></a>
+
+By analyzing whether or not a sequence is bound to TF of interest, we gain crucial information about the expression level of the corresponding gene. The information of TF binding site is also important in the discovery and therapy of certain diseases. The detecting of TF binding site also facillitates gene annotation.
+Genome annotation could also be realized through detecting transcription-factor binding sites and histone-modification. The chromatin of enhancers was determined and integrative analysis of histone modification and localization profiles of the transcriptional co-activator p300 in human cells was used to find new enhancer <a href="https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2">[2]</a>.
 
 ## 3. Workflow<a name="233"></a>
 
