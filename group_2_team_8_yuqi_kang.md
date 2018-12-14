@@ -27,6 +27,10 @@ To capture the DNA-protein interaction, the major steps are as following <a href
 - **Sequencing and Align** preprocessing the sequencing output and map the reads to genome
 - **Data Analysis and Visualization** apply further analysis on the aligned reads
 
+<img src="https://github.com/KylinKang/BENG183/blob/master/Screen%20Shot%202018-12-14%20at%202.20.37%20AM.png" alt="drawing" width="500"/>
+[Figure.1](https://www.ncbi.nlm.nih.gov/pubmed/22955991) Overview of ChIP-seq workflow and antibody characterization procedures. (A) Steps for which specific ENCODE guidelines are presented in this document are indicated in red. For other steps, standard ENCODE protocols exist that should be validated and optimized for each new cell line/tissue type or sonicator. (*) A commonly used but optional step. **Figure by ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia.**
+
+
 #### 1) Advantage of ChIP Sequencing<a name="2311"></a>
 
 ChIP-Seq identifies the binding sites of DNA-associated proteins and can be used to map global binding sites for a given protein. Unlike arrays and other approaches used to investigate the epigenome, which are inherently biased because they require probes derived from known sequences, ChIP-Seq does not require prior knowledge. ChIP-Seq delivers genome-wide profiling with massively parallel sequencing, generating millions of counts across multiple samples for cost-effective, precise analysis. Besides this unbiased investigation of epigenetic patterns, ChIP sequencing also have the following advantages compared to other transcription factor binding site detecting methods. <a href="https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html">[4]</a>
@@ -49,8 +53,9 @@ Sequence-specific transcription factors (TFs) are key regulators of biological p
 
 ![](https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg)
 ![](https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg)
-
-[Figure.1](http://pediaa.com/how-do-transcription-factors-bind-to-dna/) The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
+<img src="https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg" alt="drawing" width="500"/>
+[Figure.2](http://pediaa.com/how-do-transcription-factors-bind-to-dna/) The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
 
 #### 2) Gene Regulation and Annotation<a name="2322"></a>
 
@@ -61,11 +66,6 @@ The detecting of TF binding site also facillitates gene annotation.It could be r
 ## 3. Workflow<a name="233"></a>
 
 The following figure reveals an overview of ChIP sequencing workflow. It could be mainly split into three steps: the preparation of sequence library, the pre-filtering of sequencing outcome and the analysis of final result.
-
-![](https://github.com/KylinKang/BENG183/blob/master/Screen%20Shot%202018-12-14%20at%202.20.37%20AM.png)
-
-[Figure.2](https://www.ncbi.nlm.nih.gov/pubmed/22955991) Overview of ChIP-seq workflow and antibody characterization procedures. (A) Steps for which specific ENCODE guidelines are presented in this document are indicated in red. For other steps, standard ENCODE protocols exist that should be validated and optimized for each new cell line/tissue type or sonicator. (*) A commonly used but optional step. **Figure by ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia.**
-
 
 #### 1) Library Preparation<a name="2331"></a>
 
