@@ -106,10 +106,24 @@ This step could be divided into two parts:
 
 #### 3) Data Analysis<a name="2333"></a>
 
+1. Peak Detection:
+
+The following figure shows different method in ChIP sequencing for peak detection. In this handout, we will focus on the peak calling method.
+
 ![](https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg)
 
 [Figure.4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods. Peak-finding methods (e.g. MACS (Zhang et al., 2008)) typically either shift the ChIP-seq tag locations in a 3′ direction by half the expected fragment length, or extend the length of the tag in a 3′ direction to be equal to the expected fragment length. Tags from opposite strands are merged to construct an unstranded tag density landscapes, and binding event locations are predicted from the locations with maximum tag coverage within each region that contains a significant enrichment of ChIP-seq tags (i.e. the peak summit). **Figure by Protein-DNA binding in high-resolution.**
 
+2. Motif Discovery:
+
+3. Differential Function Analysis:
+
+
+>**Commonly Applied Softwares in This Step:**
+
+- Peak Calling and Comparison Across Samples: [MACS2](https://github.com/taoliu/MACS)
+- Motif Discovery: [MEME-ChIP](https://www.nature.com/articles/nprot.2014.083)
+- Functional Analysis: [DAVID](https://david.ncifcrf.gov/), [Gene Ontology](http://www.geneontology.org/)
 
 ## 4. Data Visualization<a name="234"></a> 
 
