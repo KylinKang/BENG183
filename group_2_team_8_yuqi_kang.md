@@ -75,7 +75,7 @@ There are five steps in library preparation, as presented as Fig.3.
 - Sonicate DNA to produce sheer chromatin fragments (enzyme digestion could be an alternative).
 
 - Immunoprecipitate by adding an antibody that recognizes a specific transcription factor or histone isoform of interest.
-    - the antibody could conjugate with magnetic bead to allow the selection of protein-binding DNA sequence.
+    * the antibody could conjugate with magnetic bead to allow the selection of protein-binding DNA sequence.
 
 - Purify the selected immunocomplex to yield the collection of DNA-protein complex containing the binding site.
 
