@@ -170,11 +170,11 @@ The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regi
 
 [4] Precise analysis of DNA–protein binding sequences. Illumina.<br>
 
-[5] Dostie J, Richmond TA, Arnaout RA, Selzer RR, Lee WL, Honan TA, et al. Chromo- some Conformation Capture Carbon Copy (5C): a massively parallel solution for mapping interactions between genomic elements. Genome Res 2006;16(10): 1299–309.<br>
+[5] Arianna Sabò, Theresia R. Kress, Mattia Pelizzola, et al. Selective transcriptional regulation by Myc in cellular growth control and lymphomagenesis. Nature volume 511. 2014 Jun; 488–492.<br>
 
-[6] Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 2009;326(5950):289–93.<br>
+[6] https://github.com/taoliu/MACS <br>
 
-[7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.<br>
+[7] Wenxiu Ma, William S Noble & Timothy L Bailey. Motif-based analysis of large nucleotide data sets using MEME-ChIP. Nature Protocols volume 9. 2014 May; 1428–1450.<br>
 
 [8] ENCODE Project Consortium. An integrated encyclopedia of DNA elements in the human genome.<br>
 
