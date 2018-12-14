@@ -42,9 +42,9 @@ Figure.1: The transcription factor binds to the promoter of a gene or other regu
 
 #### 2) Gene Regulation and Annotation<a name="2322"></a>
 
-By analyzing whether or not a sequence is bound to TF of interest, we gain crucial information about the expression level of the corresponding gene. The information of TF binding site is also important in the discovery and therapy of certain diseases. The detecting of TF binding site also facillitates gene annotation.
+By analyzing whether or not a sequence is bound to TF of interest and evaluating the amount of such TF binding sequence, we gain crucial information about the expression level of the corresponding gene. The information of TF binding site is also important in the discovery and therapy of certain diseases by comparing the gene regulation level among the samples from control and patients. 
 
-Genome annotation could also be realized through detecting transcription-factor binding sites and histone-modification. The chromatin of enhancers was determined and integrative analysis of histone modification and localization profiles of the transcriptional co-activator p300 in human cells was used to find new enhancer <a href="https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2">[2]</a>.
+The detecting of TF binding site also facillitates gene annotation.It could be realized through detecting transcription-factor binding sites and histone-modification. The chromatin of enhancers was determined and integrative analysis of histone modification and localization profiles of the transcriptional co-activator p300 in human cells was used to find new enhancer <a href="https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2">[2]</a>.
 
 ## 3. Workflow<a name="233"></a>
 
