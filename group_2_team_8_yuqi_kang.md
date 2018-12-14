@@ -93,26 +93,26 @@ There are five steps in library preparation, as presented as Fig.3.
 
 This step could be divided into two parts:
 
-1. Preprocessing of fasta/fastq file:
+***1. Preprocessing of fasta/fastq file:***
 
 The quality of output fastq file of sequencing shall first be checked. In general, fastqc is the ideal tool to use here. Quality control occurs when there is Warning or Error in the field of **Per Base Sequence Quality** and **Adapter Content**. Only sequence whose quality score is above a certain threshold, usually 30, could be kept. Also, adapter sequence is filter out.
 
 ![](https://github.com/KylinKang/BENG183/blob/master/fastqc.png)
 
-[Figure.4](https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2) An example of fastqc per base sequence quality output. The ideal quality score should be in the green area, while anything in the red area should be discarded. **Figure by Lecture 6 ChIP-seq-KN.**
+[Figure.4](https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2) An example of fastqc per base sequence quality output. The ideal quality score should be in the green area, while anything in the red area should be discarded. The per base sequence quality is pretty good in this figure. **Figure by Lecture 6 ChIP-seq-KN.**
 
 >**Commonly Applied Softwares in This Step:**
 
 - Quality Control: [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 - Adapter Removal: [cutadapt](https://cutadapt.readthedocs.io/en/stable/guide.html)
 
-2. Postfiltering of bam/sam file:
+***2. Postfiltering of bam/sam file:***
 
 After quality control, the reads in fastq file are aligned to reference genome. Most aligner would output the overall mapping percentage , as well as individual mapping score for each read. Quality control could also be performed here if needed. The output sam file could be split into three parts:
 
-    - Reads uniquely mapped to one genomic location
-    - Reads mapped to multiple genomic locations
-    - Reads that could not mapped to any genomic locations.
+ - Reads uniquely mapped to one genomic location
+ - Reads mapped to multiple genomic locations
+ - Reads that could not mapped to any genomic locations.
  
  Usually, since ChIP sequencing is a high throughput method, only the uniquely mapped reads are kept for precision. The bam file could be further sorted and indexed using samtools.
 
@@ -123,7 +123,7 @@ After quality control, the reads in fastq file are aligned to reference genome. 
 
 #### 3) Data Analysis<a name="2333"></a>
 
-1. Peak Detection:
+***1. Peak Detection:***
 
 The following figure shows different method in ChIP sequencing for peak detection. In this handout, we will focus on the application and processing of peak calling method (MACS2).
 
@@ -131,13 +131,13 @@ The following figure shows different method in ChIP sequencing for peak detectio
 
 [Figure.5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods. Peak-finding methods (e.g. MACS (Zhang et al., 2008)) typically either shift the ChIP-seq tag locations in a 3′ direction by half the expected fragment length, or extend the length of the tag in a 3′ direction to be equal to the expected fragment length. Tags from opposite strands are merged to construct an unstranded tag density landscapes, and binding event locations are predicted from the locations with maximum tag coverage within each region that contains a significant enrichment of ChIP-seq tags (i.e. the peak summit). **Figure by Protein-DNA binding in high-resolution.**
 
-2. Motif Discovery:
+***2. Motif Discovery:***
 
 ![](https://github.com/KylinKang/BENG183/blob/master/annrheumdis-2013-January-72-1-96-F4.large.jpg)
 
 [Figure.6](https://ard.bmj.com/content/72/1/96) Motif finding sample. **Figure by Insights from Genome-wide profiling of target genes for the systemic lupus erythematosus-associated transcription factors IRF5 and STAT4.**
 
-3. Differential Function Analysis:
+***3. Differential Function Analysis:***
 
 ![](https://github.com/KylinKang/BENG183/blob/master/nihms-613746-f0007.jpg)
 
