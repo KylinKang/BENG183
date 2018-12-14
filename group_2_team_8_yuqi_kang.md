@@ -85,7 +85,7 @@ There are five steps in library preparation, as presented as Fig.3.
 
 > One thing to notice here is that a portion of initial DNA sample is saved for a reference for the immunoprecipitation treated sample to filter the background noise. An alternative way is to treated this reference sample by non-specific transcription factor binding antibody.
 
-![](https://github.com/KylinKang/BENG183/blob/master/nihms-187749-f0001.jpg)
+<img src="https://github.com/KylinKang/BENG183/blob/master/nihms-187749-f0001.jpg" alt="drawing" width="500"/>
 
 [Figure.3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2846386/) A detailed workflow of library preparation for ChIP sequencing. **Figure by Insights from genomic profiling of transcription factors.**
 
@@ -97,7 +97,7 @@ This step could be divided into two parts:
 
 The quality of output fastq file of sequencing shall first be checked. In general, fastqc is the ideal tool to use here. Quality control occurs when there is Warning or Error in the field of **Per Base Sequence Quality** and **Adapter Content**. Only sequence whose quality score is above a certain threshold, usually 30, could be kept. Also, adapter sequence is filter out.
 
-![](https://github.com/KylinKang/BENG183/blob/master/fastqc.png)
+<img src="https://github.com/KylinKang/BENG183/blob/master/fastqc.png" alt="drawing" width="500"/>
 
 [Figure.4](https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2) An example of fastqc per base sequence quality output. The ideal quality score should be in the green area, while anything in the red area should be discarded. The per base sequence quality is pretty good in this figure. **Figure by Lecture 6 ChIP-seq-KN.**
 
@@ -127,19 +127,19 @@ After quality control, the reads in fastq file are aligned to reference genome. 
 
 The following figure shows different method in ChIP sequencing for peak detection. In this handout, we will focus on the application and processing of peak calling method (MACS2).
 
-![](https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg)
+<img src="https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg" alt="drawing" width="500"/>
 
 [Figure.5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods. Peak-finding methods (e.g. MACS (Zhang et al., 2008)) typically either shift the ChIP-seq tag locations in a 3′ direction by half the expected fragment length, or extend the length of the tag in a 3′ direction to be equal to the expected fragment length. Tags from opposite strands are merged to construct an unstranded tag density landscapes, and binding event locations are predicted from the locations with maximum tag coverage within each region that contains a significant enrichment of ChIP-seq tags (i.e. the peak summit). **Figure by Protein-DNA binding in high-resolution.**
 
 ***2. Motif Discovery:***
 
-![](https://github.com/KylinKang/BENG183/blob/master/annrheumdis-2013-January-72-1-96-F4.large.jpg)
+<img src="https://github.com/KylinKang/BENG183/blob/master/annrheumdis-2013-January-72-1-96-F4.large.jpg" alt="drawing" width="500"/>
 
 [Figure.6](https://ard.bmj.com/content/72/1/96) Motif finding sample. **Figure by Insights from Genome-wide profiling of target genes for the systemic lupus erythematosus-associated transcription factors IRF5 and STAT4.**
 
 ***3. Differential Function Analysis:***
 
-![](https://github.com/KylinKang/BENG183/blob/master/nihms-613746-f0007.jpg)
+<img src="https://github.com/KylinKang/BENG183/blob/master/nihms-613746-f0007.jpg" alt="drawing" width="500"/>
 
 [Figure.7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194139/) A presentation of function/pathway enriched in treated conditon compared to control. **Figure by Insights from A protocol for RNA methylation differential analysis with MeRIP-Seq data and exomePeak R/Bioconductor package.**
 
