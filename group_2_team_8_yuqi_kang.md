@@ -2,7 +2,7 @@
 1. [Introduction](#231)
 2. [Background Knowledge](#232)<br>
     2.1. [Transcription Factor](#2321)<br>
-    2.2. [Gene Regulation](#2322)
+    2.2. [Gene Regulation and Annotation](#2322)
 3. [Workflow](#233)<br>
     3.1. [Outline](#2331)<br>
     3.2. [Library Preparation](#2332)<br>
@@ -14,17 +14,19 @@
 
 
 
-## 1 Introduction<a name="231"></a>
+## 1. Introduction<a name="231"></a>
 
-The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
+As a powerful tool of analyzing protein-DNA interaction, ChIP-sequencing combines chromatin immunoprecipitation (ChIP) with next generation sequencing (NGS). It is widely applied in fields of identifying DNA sequence that are bounded by transcription factors, histone modification proteins or RNA polymerase in vivo. 
 
-To capture the interaction (crosslink between strings), there are few steps in general:
+It could also be used to examine the function of non-coding regions such as enhancers, silencers and insulators through the genome. When comparing across different samples, it is able to reveal the gene regulation events that play a role in biological pathways and even certain diseases, for example, cancer. 
+
+To capture the DNA-protein interaction, the major steps are as following:
 - Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
 - Zoom in on crosslinked part and exclude untangled parts - **Digested** with a restriction enzyme
 - Analyze the components come from the same chromatin - **Reverse crosslink** and **sequence**
 - Finish the jigsaw puzzle and get the results - **Align** the reads and **summarize** the contacts
 
-> Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
+> In this handout, we will focus on ChIP-seq’s application on finding the transcription factor site in the genome. However, the key concept and workflow are similar for identifying histone modification and regulatory non coding sequence. 
 
 ## 2.3.2 Overivew of 3C methods<a name="232"></a>
 
