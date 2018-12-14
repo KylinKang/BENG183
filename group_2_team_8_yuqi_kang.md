@@ -88,6 +88,22 @@ There are five steps in library preparation, as presented as Fig.3.
 
 #### 2) Sequencing Output Preprocessing<a name="2332"></a>
 
+This step could be divided into two parts:
+
+1. Preprocessing of fasta/fastq file:
+
+>**Commonly Applied Softwares in This Step:**
+
+- Quality Control: [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+- Adapter Removal: [cutadapt](https://cutadapt.readthedocs.io/en/stable/guide.html)
+
+2. Postfiltering of bam/sam file:
+
+>**Commonly Applied Softwares in This Step:**
+
+- Read Alignment: [STAR](https://github.com/alexdobin/STAR)
+- Sam File Processing: [samtools](http://www.htslib.org/)
+
 #### 3) Data Analysis<a name="2333"></a>
 
 ![](https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg)
