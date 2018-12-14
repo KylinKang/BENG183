@@ -1,5 +1,6 @@
 # Handout -- ChIP Sequencing
 1. [Introduction](#231)
+    1.1 [Advantage of ChIP Sequencing](#2311)<br>
 2. [Background Knowledge](#232)<br>
     2.1. [Transcription Factor](#2321)<br>
     2.2. [Gene Regulation and Annotation](#2322)
@@ -25,6 +26,15 @@ To capture the DNA-protein interaction, the major steps are as following <a href
 - **Reverse-Crosslink** reverse crosslinks, purify DNA and preparing for sequencing
 - **Sequencing and Align** preprocessing the sequencing output and map the reads to genome
 - **Data Analysis and Visualization** apply further analysis on the aligned reads
+
+#### 1) Advantage of ChIP Sequencing<a name="2311"></a>
+
+ChIP-Seq identifies the binding sites of DNA-associated proteins and can be used to map global binding sites for a given protein. Unlike arrays and other approaches used to investigate the epigenome, which are inherently biased because they require probes derived from known sequences, ChIP-Seq does not require prior knowledge. ChIP-Seq delivers genome-wide profiling with massively parallel sequencing, generating millions of counts across multiple samples for cost-effective, precise analysis. Besides this unbiased investigation of epigenetic patterns, ChIP sequencing also have the following advantages compared to other transcription factor binding site detecting methods. <a href="https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html">[4]</a>
+
+- Captures DNA targets for transcription factors or histone modifications across the entire genome of any organism [4]
+- Defines transcription factor binding sites
+- Reveals gene regulatory networks in combination with RNA sequencing and methylation analysis
+- Offers compatibility with various input DNA samples
 
 > In this handout, we will focus on ChIP-seq’s application on finding the transcription factor site in the genome. However, the key concept and workflow are similar for identifying histone modification and regulatory non coding sequence. 
 
@@ -100,7 +110,7 @@ There are five steps in library preparation, as presented as Fig.3.
 
 [3] Sachi Inukai, Kian Hong Kock and Martha L. Bulyk. Transcription factor–DNA binding: beyond binding site motifs. Current Opinion in Genetics & Development, Volume 43, 2017:110-119.<br>
 
-[4] Simonis M, Klous P, Homminga I, Galjaard RJ, Rijkers EJ, Grosveld F, et al. High-res- olution identification of balanced and complex chromosomal rearrangements by 4C technology. Nature Methods 2009;6(11):837–42.<br>
+[4] Precise analysis of DNA–protein binding sequences. Illumina.<br>
 
 [5] Dostie J, Richmond TA, Arnaout RA, Selzer RR, Lee WL, Honan TA, et al. Chromo- some Conformation Capture Carbon Copy (5C): a massively parallel solution for mapping interactions between genomic elements. Genome Res 2006;16(10): 1299–309.<br>
 
