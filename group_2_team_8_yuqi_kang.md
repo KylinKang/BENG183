@@ -143,9 +143,9 @@ The following figure shows different method in ChIP sequencing for peak detectio
 
 ## 4. Data Visualization<a name="234"></a> 
 
-A.![](https://github.com/KylinKang/BENG183/blob/master/UCSC.png)
-B.![](https://github.com/KylinKang/BENG183/blob/master/IGV.png)
-[Figure.8](http://genesdev.cshlp.org/content/early/2018/01/10/gad.308536.117.full.pdf)Examples of ChIP sequencing visulization (A: UCSC Browser; B: Integrative Genomics Viewer). **Figure by Transcription factor-dependent ‘anti-repressive’ mammalian enhancers exclude H3K27me3 from extended genomic domains.**
+**A.**![](https://github.com/KylinKang/BENG183/blob/master/UCSC.png)
+**B.**![](https://github.com/KylinKang/BENG183/blob/master/IGV.png)
+[Figure.8](http://genesdev.cshlp.org/content/early/2018/01/10/gad.308536.117.full.pdf) Examples of ChIP sequencing visulization (A: UCSC Browser; B: Integrative Genomics Viewer). **Figure by Transcription factor-dependent ‘anti-repressive’ mammalian enhancers exclude H3K27me3 from extended genomic domains.**
 
 >**Commonly Applied Softwares in This Step:**
 
