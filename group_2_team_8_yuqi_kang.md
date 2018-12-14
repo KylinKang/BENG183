@@ -28,6 +28,7 @@ To capture the DNA-protein interaction, the major steps are as following <a href
 - **Data Analysis and Visualization** apply further analysis on the aligned reads
 
 <img src="https://github.com/KylinKang/BENG183/blob/master/Screen%20Shot%202018-12-14%20at%202.20.37%20AM.png" alt="drawing" width="500"/>
+
 [Figure.1](https://www.ncbi.nlm.nih.gov/pubmed/22955991) Overview of ChIP-seq workflow and antibody characterization procedures. (A) Steps for which specific ENCODE guidelines are presented in this document are indicated in red. For other steps, standard ENCODE protocols exist that should be validated and optimized for each new cell line/tissue type or sonicator. (*) A commonly used but optional step. **Figure by ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia.**
 
 
