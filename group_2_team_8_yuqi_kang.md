@@ -46,6 +46,7 @@ The knowledge of some basic biological concepts is necessary for understanding t
 
 Sequence-specific transcription factors (TFs) are key regulators of biological processes that function by binding to transcriptional regulatory regions (e.g., promoters, enhancers) to control the expression of their target genes (enhance or repress). Each TF typically recognizes a collection of similar DNA sequences, which can be represented as binding site motifs.<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5447501/">[3]</a> Therefore, the analysis of regulatory regions in genome sequences is strongly based on the detection of potential transcription factor binding sites. 
 
+
 ![](https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg)
 ![](https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg)
 
