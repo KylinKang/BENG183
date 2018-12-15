@@ -44,7 +44,7 @@ The knowledge of some basic biological concepts is necessary for understanding t
 
 #### 1) Transcription Factor<a name="2321"></a>
 
-Sequence-specific transcription factors (TFs) are key regulators of biological processes that function by binding to transcriptional regulatory regions (e.g., promoters, enhancers) to control the expression of their target genes (enhance or repress). Each TF typically recognizes a collection of similar DNA sequences, which can be represented as binding site motifs.<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5447501/">[3]</a> Therefore, the analysis of regulatory regions in genome sequences is strongly based on the detection of potential transcription factor binding sites. 
+Sequence-specific transcription factors (TFs) are key regulators of biological processes that function by binding to transcriptional regulatory regions (e.g., promoters, enhancers) to control the expression of their target genes (enhance or repress). Each TF typically recognizes a collection of similar DNA sequences, which can be represented as **binding site motifs**.<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5447501/">[3]</a> Therefore, the analysis of regulatory regions in genome sequences is strongly based on the detection of potential transcription factor binding sites. 
 
 <img src="https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg" alt="drawing" width="400"/>
 <img src="https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg" alt="drawing" width="400"/>
@@ -128,6 +128,9 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 > In finding of regulatory sequence such as enhancer, the position of peaks called by MACS2 could be compared with that of promoter and transcription start site for validation <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110711/">[5]</a>.
 
 ***2. Motif Discovery:***
+
+The collection of detected peaks could be used in discovering and analyzing the sequence motifs characteristic of transcription factor (TF) binding sites. 
+When applied to ChIP-seq, for discovered motif, this protocol can describe the binding affinity of the protein, identify proteins with similar binding affinities to the immunoprecipitated factor, identify other proteins that may bind nearby or in competition with the immunoprecipitated factor <a href="https://www.nature.com/articles/nprot.2014.083">[7]</a>. 
 
 <img src="https://github.com/KylinKang/BENG183/blob/master/nprot.2014.083-F10.jpg" alt="drawing" width="600"/>
 
