@@ -134,9 +134,9 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 
 ***2. Motif Discovery:***
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/annrheumdis-2013-January-72-1-96-F4.large.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/nprot.2014.083-F10.jpg" alt="drawing" width="400"/>
 
-[Figure.6](https://ard.bmj.com/content/72/1/96) Motif finding sample. **Figure by Insights from Genome-wide profiling of target genes for the systemic lupus erythematosus-associated transcription factors IRF5 and STAT4.**
+[Figure.6](https://www.nature.com/articles/nprot.2014.083) Motif finding sample. **Figure by Motif-based analysis of large nucleotide data sets using MEME-ChIP.**
 
 ***3. Differential Function Analysis:***
 
