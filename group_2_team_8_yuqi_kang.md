@@ -129,7 +129,7 @@ The following figure shows different method in ChIP sequencing for peak detectio
 
 <img src="https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg" alt="drawing" width="400"/>
 
-[Figure.5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods. Peak-finding methods (e.g. MACS (Zhang et al., 2008)) typically either shift the ChIP-seq tag locations in a 3′ direction by half the expected fragment length, or extend the length of the tag in a 3′ direction to be equal to the expected fragment length. Tags from opposite strands are merged to construct an unstranded tag density landscapes, and binding event locations are predicted from the locations with maximum tag coverage within each region that contains a significant enrichment of ChIP-seq tags (i.e. the peak summit). **Figure by Protein-DNA binding in high-resolution.**
+[Figure.5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods.  **Figure by Protein-DNA binding in high-resolution.**
 
 MACS2 would first normalize sequence depth and filter out duplicate reads to avoid bias. The control sample from the experimental step act as background reference in this step. Only peaks whose enrichment reaches a certain threshold compared to the background are considered as enriched peaks. Overlapping enriched peaks are merged, and each tag position is extended d bases from its center. The location with the highest fragment pileup, hereafter referred to as the summit, is predicted as the precise binding location. 
 
