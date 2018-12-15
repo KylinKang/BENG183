@@ -172,10 +172,9 @@ The bam file could be converted to bigwig file or other format for data visualiz
 
 **Encode Project**
 
-ChIP sequencing is widely applied in labs which are involved in Encode Project, which aims to delineate all functional elements encoded in the human genome. The binding locations of 119 different DNA-binding proteins and a number of RNA polymerase components in 72 cell types are mapped using ChIP-seq.
+The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regions of transcription, transcription factor association, chromatin structure and histone modification, which aims to delineate all functional elements encoded in the human genome. Overall, the project provides new insights into the organization and regulation of our genes and genome, and is an expansive resource of functional annotations for biomedical research <a href="https://www.ncbi.nlm.nih.gov/pubmed/22955616">[8]</a>.
 
-The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regions of transcription, transcription factor association, chromatin structure and histone modification. These data enabled us to assign biochemical functions for 80% of the genome, in particular outside of the well-studied protein-coding regions. Many discovered candidate regulatory elements are physically associated with one another and with expressed genes, providing new insights into the mechanisms of gene regulation. The newly identified elements also show a statistical correspondence to sequence variants linked to human disease, and can thereby guide interpretation of this variation. Overall, the project provides new insights into the organization and regulation of our genes and genome, and is an expansive resource of functional annotations for biomedical research <a href="https://www.ncbi.nlm.nih.gov/pubmed/22955616">[8]</a>.
-
+ChIP sequencing is widely applied in labs which are involved in Encode Project. The binding locations of 119 different DNA-binding proteins and a number of RNA polymerase components in 72 cell types are mapped using ChIP-seq.
 
 # Referrence
 [1] Robertson, G. et al. Genome-wide profiles of STAT1 DNA association using chromatin immunoprecipitation and massively parallel sequencing. Nat Methods. 2007 Aug; 4(8):651-7.<br>
