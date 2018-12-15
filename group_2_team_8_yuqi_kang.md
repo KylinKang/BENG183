@@ -157,6 +157,7 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 
 ## 4. Data Visualization<a name="234"></a> 
 
+The bam file could be converted to bigwig file or other format for data visualization. Such visualization of reference sample and immunoprecipitation treated sample together could acts as an vivid representation and validating reference of ChIP sequencing output.
 
 <img src="https://github.com/KylinKang/BENG183/blob/master/UCSC.png" alt="drawing" width="600"/>
 <img src="https://github.com/KylinKang/BENG183/blob/master/IGV.png" alt="drawing" width="500"/>
