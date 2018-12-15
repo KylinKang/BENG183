@@ -129,8 +129,7 @@ The following figure shows different method in ChIP sequencing for peak detectio
 MACS2 would first normalize sequence depth and filter out duplicate reads to avoid bias. The control sample from the experimental step act as background reference in this step. Only peaks whose enrichment reaches a certain threshold compared to the background are considered as enriched peaks. Overlapping enriched peaks are merged, and each tag position is extended d bases from its center. The location with the highest fragment pileup, hereafter referred to as the summit, is predicted as the precise binding location. 
 
 > The p value and false discovery rate are often set as 0.05 for precision.
-
-> In finding of regulatory sequence such as enhancer, the position of peaks called by MACS2 could be compared with that of promoter and transcription start site for validation <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110711/">[5]</a>.
+In finding of regulatory sequence such as enhancer, the position of peaks called by MACS2 could be compared with that of promoter and transcription start site for validation <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110711/">[5]</a>.
 
 ***2. Motif Discovery:***
 
