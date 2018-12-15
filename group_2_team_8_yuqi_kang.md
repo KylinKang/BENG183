@@ -140,15 +140,15 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 
 ***3. Differential Function Analysis:***
 
+When examining peaks from various samples, differential analysis could be made based on comparing genomic locations and fold enrichments of peaks from different conditions. 
+> This comparison could be realized by MACS2 in a pair-wise manner.
+A list of up or down regulated genes could be generated from differential peak. Functional analysis of this gene list provides information of relevant biopathway.
+
 <img src="https://github.com/KylinKang/BENG183/blob/master/nihms-613746-f0007.jpg" alt="drawing" width="400"/>
 
 [Figure.7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194139/) A presentation of function/pathway enriched in treated conditon compared to control. **Figure by Insights from A protocol for RNA methylation differential analysis with MeRIP-Seq data and exomePeak R/Bioconductor package.**
 
 >**Commonly Applied Softwares in This Step:**
-
-When examining peaks from various samples, differential analysis could be made based on comparing genomic locations and fold enrichments of peaks from different conditions. 
-> This comparison could be realized by MACS2 in a pair-wise manner.
-A list of up or down regulated genes could be generated from differential peak. Functional analysis of this gene list provides information of relevant biopathway.
 
 - Peak Calling and Comparison Across Samples: [MACS2](https://github.com/taoliu/MACS)
 - Motif Discovery: [MEME-ChIP](https://www.nature.com/articles/nprot.2014.083)
