@@ -68,14 +68,10 @@ There are five steps in library preparation, as presented as Fig.3.
 - Crosslink the whole cell to stablize the interaction between DNA and DNA-binding proteins to DNA by treatment of cells with formaldehyde.
 
 - Sonicate DNA to produce sheer chromatin fragments (enzyme digestion could be an alternative).
-
 - Immunoprecipitate by adding an antibody that recognizes a specific transcription factor or histone isoform of interest.
     > The antibody could conjugate with magnetic bead to allow the selection of protein-binding DNA sequence.
-
 - Purify the selected immunocomplex to yield the collection of DNA-protein complex containing the binding site.
-
 - Reverse-crosslink to remove protein and purify DNA.
-
 - Send the built library to sequencing.
 
 > One thing to notice here is that a portion of initial DNA sample is saved for a reference for the immunoprecipitation treated sample to filter the background noise. An alternative way is to treated this reference sample by non-specific transcription factor binding antibody.
