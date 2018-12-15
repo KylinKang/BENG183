@@ -27,7 +27,7 @@ To capture the DNA-protein interaction, the major steps are as following <a href
 - **Sequencing and Align** preprocessing the sequencing output and map the reads to genome
 - **Data Analysis and Visualization** apply further analysis on the aligned reads
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/Screen%20Shot%202018-12-14%20at%202.20.37%20AM.png" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/Screen%20Shot%202018-12-14%20at%202.20.37%20AM.png" alt="drawing" width="400"/>
 
 [Figure.1](https://www.ncbi.nlm.nih.gov/pubmed/22955991) Overview of ChIP-seq workflow and antibody characterization procedures. (A) Steps for which specific ENCODE guidelines are presented in this document are indicated in red. For other steps, standard ENCODE protocols exist that should be validated and optimized for each new cell line/tissue type or sonicator. (*) A commonly used but optional step. **Figure by ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia.**
 
@@ -51,8 +51,8 @@ The knowledge of some basic biological concepts is necessary for understanding t
 
 Sequence-specific transcription factors (TFs) are key regulators of biological processes that function by binding to transcriptional regulatory regions (e.g., promoters, enhancers) to control the expression of their target genes (enhance or repress). Each TF typically recognizes a collection of similar DNA sequences, which can be represented as binding site motifs.<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5447501/">[3]</a> Therefore, the analysis of regulatory regions in genome sequences is strongly based on the detection of potential transcription factor binding sites. 
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg" alt="drawing" width="500"/>
-<img src="https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/How-do-Transcription-Factors-Bind-to-DNA-1.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/OSC_Microbio_11_07_Enhancer.jpg" alt="drawing" width="400"/>
 
 [Figure.2](http://pediaa.com/how-do-transcription-factors-bind-to-dna/) The transcription factor binds to the promoter of a gene or other regulatory noncoding sequence like enhancer to control the expression level of the gene. **Figure from How do Transcription Factors Bind to DNA and Method for Predicting Gene Expression by Modeling Transcription Factor Activity.**
 
@@ -97,7 +97,7 @@ This step could be divided into two parts:
 
 The quality of output fastq file of sequencing shall first be checked. In general, fastqc is the ideal tool to use here. Quality control occurs when there is Warning or Error in the field of **Per Base Sequence Quality** and **Adapter Content**. Only sequence whose quality score is above a certain threshold, usually 30, could be kept. Also, adapter sequence is filter out.
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/fastqc.png" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/fastqc.png" alt="drawing" width="400"/>
 
 [Figure.4](https://docs.google.com/presentation/d/1Va34FmS3-DqZXPqmbybBgL1qgNaUwcGcm86wXHkKrlI/edit#slide=id.p2) An example of fastqc per base sequence quality output. The ideal quality score should be in the green area, while anything in the red area should be discarded. The per base sequence quality is pretty good in this figure. **Figure by Lecture 6 ChIP-seq-KN.**
 
@@ -125,9 +125,9 @@ After quality control, the reads in fastq file are aligned to reference genome. 
 
 ***1. Peak Detection:***
 
-The following figure shows different method in ChIP sequencing for peak detection. In this handout, we will focus on the application and processing of peak calling method (MACS2).
+The following figure shows different method in ChIP sequencing for peak detection. In this handout, we will focus on the application and processing of peak calling method (MACS2)<a href="https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-9-r137">[6]</a>.
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/nihms705597f2.jpg" alt="drawing" width="400"/>
 
 [Figure.5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580520/) Outline of three ChIP-seq binding event detection methods. Peak-finding methods (e.g. MACS (Zhang et al., 2008)) typically either shift the ChIP-seq tag locations in a 3′ direction by half the expected fragment length, or extend the length of the tag in a 3′ direction to be equal to the expected fragment length. Tags from opposite strands are merged to construct an unstranded tag density landscapes, and binding event locations are predicted from the locations with maximum tag coverage within each region that contains a significant enrichment of ChIP-seq tags (i.e. the peak summit). **Figure by Protein-DNA binding in high-resolution.**
 
@@ -139,13 +139,13 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 
 ***2. Motif Discovery:***
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/annrheumdis-2013-January-72-1-96-F4.large.jpg" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/annrheumdis-2013-January-72-1-96-F4.large.jpg" alt="drawing" width="400"/>
 
 [Figure.6](https://ard.bmj.com/content/72/1/96) Motif finding sample. **Figure by Insights from Genome-wide profiling of target genes for the systemic lupus erythematosus-associated transcription factors IRF5 and STAT4.**
 
 ***3. Differential Function Analysis:***
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/nihms-613746-f0007.jpg" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/nihms-613746-f0007.jpg" alt="drawing" width="400"/>
 
 [Figure.7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194139/) A presentation of function/pathway enriched in treated conditon compared to control. **Figure by Insights from A protocol for RNA methylation differential analysis with MeRIP-Seq data and exomePeak R/Bioconductor package.**
 
@@ -159,8 +159,8 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 
 The bam file could be converted to bigwig file or other format for data visualization. Such visualization of reference sample and immunoprecipitation treated sample together could acts as an vivid representation and validating reference of ChIP sequencing output.
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/UCSC.png" alt="drawing" width="600"/>
-<img src="https://github.com/KylinKang/BENG183/blob/master/IGV.png" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/UCSC.png" alt="drawing" width="500"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/IGV.png" alt="drawing" width="400"/>
 
 [Figure.8](http://genesdev.cshlp.org/content/early/2018/01/10/gad.308536.117.full.pdf) Examples of ChIP sequencing visulization (Upper: UCSC Browser; Lower: Integrative Genomics Viewer). **Figure by Transcription factor-dependent ‘anti-repressive’ mammalian enhancers exclude H3K27me3 from extended genomic domains.**
 
