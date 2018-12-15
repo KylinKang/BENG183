@@ -135,7 +135,7 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 
 > The p value and false discovery rate are often set as 0.05 for precision.
 
-> In finding of regulatory sequence such as enhancer, the position of peaks called by MACS2 could be compared with that of promoter and transcription start site for validation.[5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110711/)
+> In finding of regulatory sequence such as enhancer, the position of peaks called by MACS2 could be compared with that of promoter and transcription start site for validation <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110711/">[5]</a>.
 
 ***2. Motif Discovery:***
 
