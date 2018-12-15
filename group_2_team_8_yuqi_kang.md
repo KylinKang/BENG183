@@ -142,6 +142,7 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 
 When examining peaks from various samples, differential analysis could be made based on comparing genomic locations and fold enrichments of peaks from different conditions. 
 > This comparison could be realized by MACS2 in a pair-wise manner.
+
 A list of up or down regulated genes could be generated from differential peak. Functional analysis of this gene list provides information of relevant biopathway.
 
 <img src="https://github.com/KylinKang/BENG183/blob/master/nihms-613746-f0007.jpg" alt="drawing" width="400"/>
