@@ -134,7 +134,7 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 
 ***2. Motif Discovery:***
 
-<img src="https://github.com/KylinKang/BENG183/blob/master/nprot.2014.083-F10.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/KylinKang/BENG183/blob/master/nprot.2014.083-F10.jpg" alt="drawing" width="500"/>
 
 [Figure.6](https://www.nature.com/articles/nprot.2014.083) Motif finding sample. **Figure by Motif-based analysis of large nucleotide data sets using MEME-ChIP.**
 
