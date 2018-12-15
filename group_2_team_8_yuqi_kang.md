@@ -34,12 +34,7 @@ To capture the DNA-protein interaction, the major steps are as following <a href
 
 #### 1) Advantage of ChIP Sequencing<a name="2311"></a>
 
-ChIP-Seq identifies the binding sites of DNA-associated proteins and can be used to map global binding sites for a given protein. Unlike arrays and other approaches used to investigate the epigenome, which are inherently biased because they require probes derived from known sequences, ChIP-Seq does not require prior knowledge. ChIP-Seq delivers genome-wide profiling with massively parallel sequencing, generating millions of counts across multiple samples for cost-effective, precise analysis. Besides this unbiased investigation of epigenetic patterns, ChIP sequencing also have the following advantages compared to other transcription factor binding site detecting methods. <a href="https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html">[4]</a>
-
-- Captures DNA targets for transcription factors or histone modifications across the entire genome of any organism [4]
-- Defines transcription factor binding sites
-- Reveals gene regulatory networks in combination with RNA sequencing and methylation analysis
-- Offers compatibility with various input DNA samples
+ChIP-Seq identifies the binding sites of DNA-associated proteins and can be used to map global binding sites for a given protein. Unlike arrays and other approaches used to investigate the epigenome, which are inherently biased because they require probes derived from known sequences, ChIP-Seq does not require prior knowledge. ChIP-Seq delivers genome-wide profiling with massively parallel sequencing, generating millions of counts across multiple samples for cost-effective, precise analysis and realize the unbiased investigation of epigenetic patterns. <a href="https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html">[4]</a>
 
 > In this handout, we will focus on ChIP-seq’s application on finding the transcription factor site in the genome. However, the key concept and workflow are similar for identifying histone modification and regulatory non coding sequence. 
 
@@ -150,6 +145,10 @@ MACS2 would first normalize sequence depth and filter out duplicate reads to avo
 [Figure.7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194139/) A presentation of function/pathway enriched in treated conditon compared to control. **Figure by Insights from A protocol for RNA methylation differential analysis with MeRIP-Seq data and exomePeak R/Bioconductor package.**
 
 >**Commonly Applied Softwares in This Step:**
+
+When examining peaks from various samples, differential analysis could be made based on comparing genomic locations and fold enrichments of peaks from different conditions. 
+> This comparison could be realized by MACS2 in a pair-wise manner.
+A list of up or down regulated genes could be generated from differential peak. Functional analysis of this gene list provides information of relevant biopathway.
 
 - Peak Calling and Comparison Across Samples: [MACS2](https://github.com/taoliu/MACS)
 - Motif Discovery: [MEME-ChIP](https://www.nature.com/articles/nprot.2014.083)
